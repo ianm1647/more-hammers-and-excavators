@@ -15,7 +15,7 @@ public class ItemRegistry {
     private static final ItemGroup group = MoreHammersAndExcavators.GROUP;
 
     public static void registerHammers() {
-       //if (FabricLoader.getInstance().isModLoaded("vanilla-hammers")) {
+       if (FabricLoader.getInstance().isModLoaded("vanilla-hammers")) {
             if (FabricLoader.getInstance().isModLoaded("additionaladditions")) {
                 hammerItem("rose_gold", ToolMaterials.ROSE_GOLD);
                 fireproofHammerItem("gilded_netherite", ToolMaterials.GILDED_NETHERITE);
@@ -39,7 +39,7 @@ public class ItemRegistry {
                 fireproofHammerItem("enderite", ToolMaterials.ENDERITE);
             }
 
-            //if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
+            if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
                 hammerItem("adamantite", ToolMaterials.ADAMANTITE);
                 hammerItem("aquarium", ToolMaterials.AQUARIUM);
                 hammerItem("banglum", ToolMaterials.BANGLUM);
@@ -61,12 +61,12 @@ public class ItemRegistry {
                 hammerItem("runite", ToolMaterials.RUNITE);
                 hammerItem("star_platinum", ToolMaterials.STAR_PLATINUM);
                 hammerItem("stormyx", ToolMaterials.STORMYX);
-            //}
-         //}
+            }
+         }
     }
 
     public static void registerExcavators() {
-        //if (FabricLoader.getInstance().isModLoaded("vanillaexcavators")) {
+        if (FabricLoader.getInstance().isModLoaded("vanillaexcavators")) {
             if (FabricLoader.getInstance().isModLoaded("additionaladditions")) {
                 excavatorItem("rose_gold", ToolMaterials.ROSE_GOLD);
                 fireproofExcavatorItem("gilded_netherite", ToolMaterials.GILDED_NETHERITE);
@@ -90,7 +90,7 @@ public class ItemRegistry {
                 fireproofExcavatorItem("enderite", ToolMaterials.ENDERITE);
             }
 
-            //if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
+            if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
                 excavatorItem("adamantite", ToolMaterials.ADAMANTITE);
                 excavatorItem("aquarium", ToolMaterials.AQUARIUM);
                 excavatorItem("banglum", ToolMaterials.BANGLUM);
@@ -112,8 +112,8 @@ public class ItemRegistry {
                 excavatorItem("runite", ToolMaterials.RUNITE);
                 excavatorItem("star_platinum", ToolMaterials.STAR_PLATINUM);
                 excavatorItem("stormyx", ToolMaterials.STORMYX);
-            //}
-        //}
+            }
+        }
     }
 
     private static void hammerItem(String name, ToolMaterial material) {

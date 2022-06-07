@@ -9,11 +9,11 @@
     "ianm1647"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/more-hammers-excavators",
+    "sources": "https://github.com/ianm1647/more-hammers-and-excavators"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/morehammersexcavators/icon.png",
 
   "environment": "*",
@@ -30,6 +30,13 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "vanilla-hammers": "*",
+    "vanillaexcavators": "*",
+    "additionaladditions": "*",
+    "betterend": "*",
+    "byg": "*",
+    "dragonloot": "*",
+    "enderitemod": "*",
+    "mythicmetals": "*"
   }
 }
