@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BxB",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "mythicmetals:hallowed_ingot"
+    },
+    "B": {
+      "item": "mythicmetals:hallowed_block"
+    }
+  },
+  "result": {
+    "item": "morehammersexcavators:hallowed_hammer"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanilla-hammers",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

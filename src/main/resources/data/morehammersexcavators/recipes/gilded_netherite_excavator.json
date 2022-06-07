@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing",
+  "base": {"item": "vanillaexcavators:netherite_excavator"},
+  "addition": {"item": "additionaladditions:gold_ring"},
+  "result": {"item": "morehammersexcavators:gilded_netherite_excavator"},
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "additionaladditions"
+      ]
+    }
+  ]
+}

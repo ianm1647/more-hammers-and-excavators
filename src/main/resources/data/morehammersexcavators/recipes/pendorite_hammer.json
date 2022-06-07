@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing",
+  "base": {"item": "vanilla-hammer:netherite_hammer"},
+  "addition": {"item": "byg:pendorite_ingot"},
+  "result": {"item": "morehammersexcavators:pendorite_hammer"},
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanilla-hammer",
+        "byg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "B#B",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "mythicmetals:kyber_ingot"
+    },
+    "B": {
+      "item": "mythicmetals:kyber_block"
+    }
+  },
+  "result": {
+    "item": "morehammersexcavators:kyber_excavator"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing",
+  "base": {"item": "morehammersexcavators:banglum_hammer"},
+  "addition": {"item": "mythicmetals:banglum_chunk"},
+  "result": {"item": "morehammersexcavators:legendary_banglum_hammer"},
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing",
+  "base": {"item": "vanilla-hammers:diamond_hammer"},
+  "addition": {"item": "mythicmetals:celestium_ingot"},
+  "result": {"item": "morehammersexcavators:celestium_hammer"},
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanilla-hammers",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

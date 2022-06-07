@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "B#B",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "mythicmetals:quadrillum_ingot"
+    },
+    "B": {
+      "item": "mythicmetals:quadrillum_block"
+    }
+  },
+  "result": {
+    "item": "morehammersexcavators:quadrillum_excavator"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

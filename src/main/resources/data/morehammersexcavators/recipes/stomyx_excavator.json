@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "B#B",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "mythicmetals:stormyx_ingot"
+    },
+    "B": {
+      "item": "mythicmetals:stormyx_block"
+    }
+  },
+  "result": {
+    "item": "morehammersexcavators:stormyx_excavator"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

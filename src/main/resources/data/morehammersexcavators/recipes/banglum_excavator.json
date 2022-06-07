@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "B#B",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "mythicmetals:banglum_ingot"
+    },
+    "B": {
+      "item": "mythicmetals:banglum_block"
+    }
+  },
+  "result": {
+    "item": "morehammersexcavators:banglum_excavator"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "mythicmetals"
+      ]
+    }
+  ]
+}

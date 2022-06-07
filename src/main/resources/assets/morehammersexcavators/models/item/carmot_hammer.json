@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "morehammersexcavators:item/carmot_hammer"
+	}
+}

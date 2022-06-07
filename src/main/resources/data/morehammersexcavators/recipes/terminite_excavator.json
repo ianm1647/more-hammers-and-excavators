@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "B#B",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "betterend:terminite_ingot"
+    },
+    "B": {
+      "item": "betterend:terminite_block"
+    }
+  },
+  "result": {
+    "item": "morehammersexcavators:terminite_excavator"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanillaexcavators",
+        "betterend"
+      ]
+    }
+  ]
+}

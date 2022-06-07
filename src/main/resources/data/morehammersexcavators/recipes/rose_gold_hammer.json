@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing",
+  "base": {"item": "vanilla-hammers:golden_hammer"},
+  "addition": {"item": "minecraft:copper_ingot"},
+  "result": {"item": "morehammersexcavators:rose_gold_hammer"},
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vanilla-hammers",
+        "additionaladditions"
+      ]
+    }
+  ]
+}
