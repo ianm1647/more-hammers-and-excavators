@@ -1,9 +1,1 @@
-# Fabric Example Mod
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+<h4 style="text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/BN0CNhT/More-Hammers-and-Excavat.png" alt="" width="1000" /></h4>
